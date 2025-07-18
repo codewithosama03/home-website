@@ -1,0 +1,761 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>wealth home</title>
+
+    <!-- html links -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
+
+    <!-- more html Material icon -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@24,400,0..1,0" />
+
+    <!-- custom css -->
+    <link rel="stylesheet" href="style.css">
+
+
+</head>
+<body>
+    <!-- navbar 2 (show)  -->
+ 
+ <header>   
+
+     <nav>   
+         
+         <ul>
+             <li class="log" > 
+                 <a href="#"> <img src="logo.png" ></a></li>
+             <li class="hideonmobile"> <a href="#"> Home </a></li>
+             <li class="hideonmobile"> <a href="#"> Rent  </a></li>
+             <li class="hideonmobile"> <a href=""#> Sell </a></li>
+             <li class="hideonmobile"> <a href=""#> Buy </a></li>
+             
+             <li class="hideonmobile"> <a href=""#> LogIn </a></li>
+             <li class="hideonmobile"> <a href=""#> <span id="get-start"> Get-Started</span>  </a></li>
+             
+             <li class="menu-btn" onclick="opensidebar()"> <a href="#"> <svg xmlns="http://www.w3.org/2000/svg"  height="26px" viewBox="0 -960 960 960" width="26px" fill="#ffffff"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg> </a> </li>
+             
+            </ul>
+            
+            <!-- nav 1  (hiddeen)-->
+            <ul class="sidebar">
+                
+                <li  onclick="closesidebar()"> 
+                     <a href="#"> <img src="logo.png" alt="logo"> <span id="logo-sidebar">   <svg xmlns="http://www.w3.org/2000/svg" height="26px" viewBox="0 -960 960 960" width="26px" fill="#ffffff"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg> </span>  </a> </li>
+                <li > <a href="#"> Home </a></li>
+                <li > <a href="#"> Rent </a></li>
+                <li > <a href="#"> Buy </a></li>
+                <li > <a href="#"> Sell </a></li>
+                <li > <a href="#"> Log-In </a></li>
+                <a href=""#> <span id="get-start"> Get-Started</span>  </a></li>
+            </ul>
+            
+            
+            
+        </nav>
+        
+    </header>
+    
+    <!--article start  -->
+
+    <article>
+    
+        <!-- hero section -->
+   <section>
+  
+    <div class=" big-container"> 
+
+<!-- hero text -->
+
+<!-- second conatiner -->
+    <div class="container">
+
+        <div class="hero-text">
+            
+            <h1 class="hero-text-h1">
+                Find a place where you can be yourself 
+            </h1>
+            
+            <span class="hero-text-p"> <p > if you are looking for a place where you can be yourself,
+                don`t give up.keep searching until you find a place that feels like home
+            </p> </span>
+            
+        </div>
+        
+        
+        <!-- hero -search -->
+        <div class="hero-search">
+            
+            <!-- mein div -->
+            <div class="search-main">
+                
+                <!-- want-to -->
+                <div class="want-to"> 
+                    
+                    <span class="holder-span"> 
+                        
+                        <span> Want To </span>
+                        
+                        <span class="buy-rent-sell"> <select name="townhouse" class="select-opt"> 
+                            <option  value="townhouse" selected="buy">Buy  </option>
+                            <option value="townhouse">Rent </option>
+                            <option value="townhouse">Sell </option>  
+                        </select>    
+                        
+            </span>
+          </span>
+            
+              <span class="logo">
+                  <img class="icon-colour" src="sell.svg" alt="sell" height="20px" width="19px" >
+                </span>
+                
+            </span>
+            
+            
+        </div>
+        
+        <!-- property type -->
+        <div class="property-type">
+            <span  class="holder-span">
+                
+                <span> Property-Type</span>
+                <span> <select name="townhouse" class="select-opt"> 
+                    
+                    <option  value="apartment" selected="apartment">Apartment </option>
+                    <option value="Flat"> Flat  </option>
+                    <option value="Banglow"> Banglow </option>
+                    <option value="mansion">mansion</option>
+                    <option value="Small house"> Small house</option>
+                    <option value="big house">Big house</option>
+                    
+                </select>  
+            </span>  
+            
+        </span>
+        
+        <span class="logo">
+            
+            <img class="icon-colour" src="house.svg" alt="sell" height="20px" width="19px" >
+        </span>
+        
+    </div>
+    
+    <!-- location -->
+    <div class="location">
+        
+        <span class="holder-span">
+               <span> Location</span>
+               <span > <input class="input-field" type="text" placeholder="street,city,zip-code"></span>
+               
+            </span>
+
+            <span class="logo">
+                <img class="icon-colour" src="location.svg" alt="sell" height="20px" width="100px" >
+            </span>
+            
+        </div>
+        
+        <!-- search -->
+        <div class="search">
+            <span> <img class="icon-colour" src="search.svg" alt="sell" col height="100px" width="19px" > </span>
+            <a class="search-icon" href="#">  search  </a>
+        </div>
+        
+    </div> 
+    
+    <!-- main div end -->
+    </div>
+        
+    <!-- second container -->
+  </div>
+
+  <!-- hero img container -->
+  <div class="hero-image">
+       <div class="hero-img-div">
+     
+       </div>
+  </div> 
+
+  </div> 
+  <!-- big container div -->
+
+   </section>
+
+<!-- best home in your city -->
+<section>
+
+    <div class="home-container">
+       
+        <!-- first div best home -->
+        <div class="intro-div">
+         
+            <div class="intro-text">
+                <h3>Best Home in your city </h3>
+                <p>Lorem ipsum dolor piente s odio soluta et iure </p>
+                <p>orem ipsum dolor sit, a. Numquam </p>
+            </div>
+
+             <div class="explore">
+                <span class="edit-explore">
+                    <span> Explore More </span> 
+                    <span><img src="explore.svg" height="20px" width="20px"> </span> 
+                </span>
+             </div>
+
+       </div>
+       
+       <!-- house boxes -->
+          <div class="box-container">
+        
+              
+              <div class="box-house">
+                  
+                  <div class="box-house-img-1" >
+                      <!-- <img src="property-1.jpg" alt="property-1"> -->
+                </div>
+             
+                <div class="house-content">
+                 <span class="house-price"> $710.68</span>
+                 <span class="house-name"> COVA Home Realty</span>
+                 <span class="house-address"> 1901 Thornridge Cir. Shiloh, Hawaii 81063</span>
+                </div>
+             
+                <div class="house-features">
+                 <span class="bed"> <img src="bed_28dp_000000_FILL0_wght400_GRAD0_opsz24.svg"  height="14px" alt="bed"> 3 Bed </span>
+                 <span class="bath"> <img src="bathtub.svg" height="14px" alt="bath">2 Bath</span> 
+                 <span class="area"> <img src="area.svg" height="14px" alt="area">1430 sqft</span>
+                </div>
+             
+             
+                </div>
+                <!-- box-house end -->
+
+                <div class="box-house">
+                  
+                    <div class="box-house-img-2">
+                        
+                        <!-- <img src="property-1.jpg" alt="property-1"> -->
+                  </div>
+               
+                  <div class="house-content">
+                   <span class="house-price"> $630.44</span>
+                   <span class="house-name"> Exit Realty</span>
+                   <span class="house-address"> 2972 Westheimer Rd. Santa Ana, Illinois 85486</span>
+                  </div>
+               
+                  <div class="house-features">
+                   <span class="bed"> <img src="bed_28dp_000000_FILL0_wght400_GRAD0_opsz24.svg"  height="14px" alt="bed"> 5 Bed </span>
+                   <span class="bath"> <img src="bathtub.svg" height="14px" alt="bath">4 Bath</span> 
+                   <span class="area"> <img src="area.svg" height="14px" alt="area">1639 sqft</span>
+                  </div>
+               
+               
+                  </div>
+                  <!-- box-house end -->
+    
+                <div class="box-house">
+                  
+                    <div class="box-house-img-3">
+                        <!-- <img src="property-1.jpg" alt="property-1"> -->
+                  </div>
+               
+                  <div class="house-content">
+                   <span class="house-price"> $475.22</span>
+                   <span class="house-name"> The Real Estate Group</span>
+                   <span class="house-address">2118 Thornridge Cir. Syracuse, Connecticut 35624</span>
+                  </div>
+               
+                  <div class="house-features">
+                   <span class="bed"> <img src="bed_28dp_000000_FILL0_wght400_GRAD0_opsz24.svg"  height="14px" alt="bed"> 3 Bed </span>
+                   <span class="bath"> <img src="bathtub.svg" height="14px" alt="bath">8 Bath</span> 
+                   <span class="area"> <img src="area.svg" height="14px" alt="area">1240 sqft</span>
+                  </div>
+               
+               
+                  </div>
+                  <!-- box-house end -->
+    
+                <div class="box-house">
+                  
+                    <div class="box-house-img-4">
+                     
+                        <!-- <img src="property-1.jpg" alt="property-1"> -->
+                  </div>
+               
+                  <div class="house-content">
+                   <span class="house-price"> $576.28</span>
+                   <span class="house-name"> 757 Realty</span>
+                   <span class="house-address"> 4140 Parker Rd. Allentown, New Mexico 31134</span>
+                  </div>
+               
+                  <div class="house-features">
+                   <span class="bed"> <img src="bed_28dp_000000_FILL0_wght400_GRAD0_opsz24.svg"  height="14px" alt="bed"> 3 Bed </span>
+                   <span class="bath"> <img src="bathtub.svg" height="14px" alt="bath">4 Bath</span> 
+                   <span class="area"> <img src="area.svg" height="14px" alt="area">1260 sqft</span>
+                  </div>
+               
+               
+                  </div>
+                  <!-- box-house end -->
+    
+                <div class="box-house">
+                  
+                    <div class="box-house-img-5">
+                   
+                        <!-- <img src="property-1.jpg" alt="property-1"> -->
+                  </div>
+               
+                  <div class="house-content">
+                   <span class="house-price"> $473.85</span>
+                   <span class="house-name"> Beach Pros Realty Inc.</span>
+                   <span class="house-address"> 2715 Ash Dr. San Jose, South Dakota 83475</span>
+                  </div>
+               
+                  <div class="house-features">
+                   <span class="bed"> <img src="bed_28dp_000000_FILL0_wght400_GRAD0_opsz24.svg"  height="14px" alt="bed"> 6 Bed </span>
+                   <span class="bath"> <img src="bathtub.svg" height="14px" alt="bath">10 Bath</span> 
+                   <span class="area"> <img src="area.svg" height="14px" alt="area">2350 sqft</span>
+                  </div>
+               
+               
+                  </div>
+                  <!-- box-house end -->
+    
+                <div class="box-house">
+                  
+                    <div class="box-house-img-6">
+                        
+                        <!-- <img src="property-1.jpg" alt="property-1"> -->
+                  </div>
+               
+                  <div class="house-content">
+                   <span class="house-price">$105.55</span>
+                   <span class="house-name"> Keller Williams Elite Town Center</span>
+                   <span class="house-address"> 3517 W. Gray St. Utica, Pennsylvania 57867</span>
+                  </div>
+               
+                  <div class="house-features">
+                   <span class="bed"> <img src="bed_28dp_000000_FILL0_wght400_GRAD0_opsz24.svg"  height="14px" alt="bed"> 3 Bed </span>
+                   <span class="bath"> <img src="bathtub.svg" height="14px" alt="bath">6 Bath</span> 
+                   <span class="area"> <img src="area.svg" height="14px" alt="area">1950 sqft</span>
+                  </div>
+               
+               
+                  </div>
+                  <!-- box-house end -->
+    
+                <div class="box-house">
+                  
+                    <div class="box-house-img-7">
+                        
+                        <!-- <img src="property-1.jpg" alt="property-1"> -->
+                  </div>
+               
+                  <div class="house-content">
+                   <span class="house-price">$739.65</span>
+                   <span class="house-name">All Pros Real Estate</span>
+                   <span class="house-address"> 8502 Preston Rd. Inglewood, Maine 98380</span>
+                  </div>
+               
+                  <div class="house-features">
+                   <span class="bed"> <img src="bed_28dp_000000_FILL0_wght400_GRAD0_opsz24.svg"  height="14px" alt="bed"> 3 Bed </span>
+                   <span class="bath"> <img src="bathtub.svg" height="14px" alt="bath">6 Bath</span> 
+                   <span class="area"> <img src="area.svg" height="14px" alt="area">1190 sqft</span>
+                  </div>
+               
+               
+                  </div>
+                  <!-- box-house end -->
+
+                  <div class="box-house">
+                  
+                    <div class="box-house-img-8">
+                        
+                        <!-- <img src="property-1.jpg" alt="property-1"> -->
+                  </div>
+               
+                  <div class="house-content">
+                   <span class="house-price"> $948.55</span>
+                   <span class="house-name">  Realty xw </span>
+                   <span class="house-address">  4517 Washington Ave. Manchester, Kentucky 39495</span>
+                  </div>
+               
+                  <div class="house-features">
+                   <span class="bed"> <img src="bed_28dp_000000_FILL0_wght400_GRAD0_opsz24.svg"  height="14px" alt="bed"> 6 Bed </span>
+                   <span class="bath"> <img src="bathtub.svg" height="14px" alt="bath">2 Bath</span> 
+                   <span class="area"> <img src="area.svg" height="14px" alt="area">1330 sqft</span>
+                  </div>
+               
+               
+                  </div>
+                  <!-- box-house end -->
+    
+       
+       
+       </div>
+       <!-- house box -container end -->
+       
+
+    </div>
+    <!-- home-container end -->
+
+
+</section>
+<!-- box houses end section  -->
+
+
+
+<!-- showcase  -->
+<section> 
+    <div class="showcase-main">
+        
+        <div class="showcase-box-1"> 
+        <div class="showcase-1">
+           <div class="showcase-img"> </div>
+        </div>
+        
+        
+        <!-- space  -->
+        <div  class="showcase-2">
+            
+            <div class="showcase-heading">
+                 <h2> We Specialize 
+                In Quality 
+                Home Renovations</h2>        
+            </div>
+            
+            <div class="showcase-text"> Looking to renovate your home to reflect your style and personality? Look no further than our team of experts who specialize in quality home renovations to transform your space into a dream home you’ll love. From design to execution.
+            </div>
+            
+            <div class="showcase-service"> 
+                 
+                <div class="showcase-box">
+                  
+                    <span>
+                     <img src="verified.svg" alt="verified" height="15px"> smart home
+                   </span>
+                   <!-- <br> -->
+                  <span>
+                    <img src="verified.svg" alt="verified" height="15px"> exceptional lifestyle
+                  </span>
+
+                </div>
+
+                   
+                <div class="showcase-box">
+                  
+                    <span>
+                        <img src="verified.svg" alt="verified" height="15px">   beautiful scene around
+                   </span>
+                   <!-- <br> -->
+                  <span>
+                    <img src="verified.svg" alt="verified" height="15px">   complete 24/7 security
+                  </span>
+
+                </div>
+            
+            </div>
+
+        </div>
+
+
+    </div>
+
+        
+    </div>
+    <!-- main showcase div end -->
+
+    <div class="showcase-main">
+        
+        <div class="showcase-box-1"> 
+        
+        <!-- space  -->
+        <div  class="showcase-2">
+            
+            <div class="showcase-heading">
+                <h2>We Are Experts 
+                    In Historic 
+                    Home Renovations</h2>        
+                </div>
+                
+                <div class="showcase-text"> Looking to renovate your home to reflect your style and personality? Look no further than our team of experts who specialize in quality home renovations to transform your space into a dream home you’ll love. From design to execution.
+                </div>
+                
+                <div class="showcase-service"> 
+                    
+                    <div class="showcase-box">
+                        
+                        <span>
+                            <img src="verified.svg" alt="verified" height="15px"> smart home
+                   </span>
+                   <!-- <br> -->
+                  <span>
+                      <img src="verified.svg" alt="verified" height="15px"> exceptional lifestyle
+                    </span>
+                    
+                </div>
+                
+                
+                <div class="showcase-box">
+                    
+                    <span>
+                        <img src="verified.svg" alt="verified" height="15px">   beautiful scene around
+                    </span>
+                   <!-- <br> -->
+                   <span>
+                       <img src="verified.svg" alt="verified" height="15px">   complete 24/7 security
+                    </span>
+
+                </div>
+                
+            </div>
+            
+        </div>
+        
+        
+        <div class="showcase-1">
+           <div class="showcase-img-2"> </div>
+        </div>
+        
+    </div>
+        
+    </div>
+    <!-- main showcase div end -->
+
+    
+</section>
+<!-- showcase end -->
+
+<!-- video-card -->
+<section>  
+  <div class="video-card-main">
+     <div class="video-card-img"> 
+        <div class="play-btn"> <span> <a href="#">  <img src="play-btn.svg" alt="play-btn"></a> </span> </div>
+     </div>
+  </div>  
+
+</section>
+
+
+
+
+</section>
+<!-- customer section -->
+
+ <div class="customer-div">
+   
+   <div class="main-customer">
+
+       <div class="customer-intro-div">
+           
+           
+           <div class="customer-text">
+               <h4>Our Customers </h4>
+               <h2>We Help 1000+ Family Find 
+                   <br>
+                   Their True Home</h2>
+                </div>
+                
+                <div class="explore-customer">
+                    <span class="edit-customer">
+                        <span> View All Stories <span> </span></span> 
+                        <span><img src="stories.svg" height="20px" width="20px"> </span> 
+                    </span>
+                </div>
+                
+            </div>
+            
+        <div class="customer-boxes">
+           <div class="people-boxes" id="box-1"> </div>
+           <div class="people-boxes" id="box-2"> </div>
+           <div class="people-boxes" id="box-3"> </div>
+           <div class="people-boxes" id="box-4"> 99+</div>
+        </div>
+
+    </div>
+    <!-- main customer end -->
+        
+    </div>
+
+    <!-- customer section END-->
+
+    <!-- profile section -->
+    <section>
+      
+        <div class="profile-container">
+           
+            <div class="profile-main">
+                
+                <!-- box-open  -->
+                <div class="profile-box" id="person-1"> 
+                    
+                    <div class="profile-info">
+                        <div class="profile-text">
+                            <p class="pro-text"> Duke Silver</p>
+                           <span class="pro-rating"><img src="star.svg"><img src="star.svg">
+                            <img src="star.svg"><img src="star.svg">
+                            <img src="star.svg"></span>
+                       </div>
+
+                        <div class="profile-img" id="person-1-pic"></div>
+                    </div>
+
+                </div>
+               <!-- box-open end -->
+
+                     <!-- box-open  -->
+                     <div class="profile-box" id="person-2"> 
+                    
+                        <div class="profile-info">
+                            <div class="profile-text">
+                                <p class="pro-text"> Tsukasa Aoi</p>
+                               <span class="pro-rating"><img src="star.svg"><img src="star.svg">
+                                <img src="star.svg"><img src="star.svg">
+                                <img src="star.svg"></span>
+                           </div>
+    
+                            <div class="profile-img"  id="person-2-pic"></div>
+                        </div>
+    
+                    </div>
+                   <!-- box-open end -->
+
+                         <!-- box-open  -->
+                <div class="profile-box" id="person-3"> 
+                    
+                    <div class="profile-info">
+                        <div class="profile-text">
+                            <p class="pro-text"> Freida Varnes</p>
+                           <span class="pro-rating"><img src="star.svg"><img src="star.svg">
+                            <img src="star.svg"><img src="star.svg">
+                            <img src="star.svg"></span>
+                       </div>
+
+                        <div class="profile-img"  id="person-3-pic"></div>
+                    </div>
+
+                </div>
+               <!-- box-open end -->
+                      <!-- box-open  -->
+                      <div class="profile-box" id="person-4"> 
+                    
+                        <div class="profile-info">
+                            <div class="profile-text">
+                                <p class="pro-text">Marci Senter</p>
+                               <span class="pro-rating"><img src="star.svg"><img src="star.svg">
+                                <img src="star.svg"><img src="star.svg">
+                                <img src="star.svg"></span>
+                           </div>
+    
+                            <div class="profile-img"  id="person-4-pic"></div>
+                        </div>
+    
+                    </div>
+                   <!-- box-open end -->
+
+                         <!-- box-open  -->
+                <div class="profile-box" id="person-5" > 
+                    
+                    <div class="profile-info">
+                        <div class="profile-text" >
+                            <p class="pro-text">Chris Traeger</p>
+                           <span class="pro-rating"><img src="star.svg"><img src="star.svg">
+                            <img src="star.svg"><img src="star.svg">
+                            <img src="star.svg"></span>
+                       </div>
+
+                        <div class="profile-img"  id="person-5-pic"></div>
+                    </div>
+
+                </div>
+               <!-- box-open end -->
+                      <!-- box-open  -->
+                      <div class="profile-box" id="person-6" > 
+                           
+                        <div class="profile-info">
+                            <div class="profile-text">
+                                <p class="pro-text">Carl Lorthner</p>
+                               <span class="pro-rating"><img src="star.svg"><img src="star.svg">
+                                <img src="star.svg"><img src="star.svg">
+                                <img src="star.svg"></span>
+                           </div>
+    
+                            <div class="profile-img"  id="person-6-pic"></div>
+                        </div>
+    
+                    </div>
+                   <!-- box-open end -->
+
+
+            </div>
+             
+      
+        </div>
+        <!-- profile container end -->
+    </section>
+
+
+ </article>
+  <!--main article end  -->
+
+  <div class="footer"> 
+      
+      
+      <div class="main-footer">
+          <div class="foot-box-1"> 
+            <div > <img src="logo.png" ></div>
+            <h4> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nobis aperiam eius dicta alias corporis cum consequatur dolor numquam asperiores totam, illum, nihil, mo</h4>
+        </div>
+        
+        <div class="foot-box-2">
+            <!-- ul -->
+            <ul class="foot-list"> 
+                
+                <li class="ul-heading"> Quick link </li>
+                <li class="ul-link"> <a href="#"> Home</a></li>
+                <li class="ul-link"> <a href="#"> Buy</a></li>
+                <li class="ul-link"> <a href="#"> Sell</a></li>
+                <li class="ul-link"> <a href="#"> Rent</a></li>
+                
+            </ul>
+            <!-- ul end -->
+            
+            <!-- ul -->
+            <ul class="foot-list"> 
+                
+                <li class="ul-heading"> Support </li>
+                <li class="ul-link"> <a href="#"> About us</a></li>
+                <li class="ul-link"> <a href="#"> Contact Us</a></li>
+                <li class="ul-link"> <a href="#"> Privacy Policy</a></li>
+                <li class="ul-link"> <a href="#"> Terms & Conditions</a></li>
+              
+            </ul>
+            <!-- ul end -->
+
+              <!-- ul -->
+              <ul class="foot-list"> 
+               
+                <li class="ul-heading"> Get In Touch</li>
+                <li class="ul-link"> <a href="#">hiWealtHom@gmail.com</a></li>
+                <li class="ul-link"> <a href="#"> 4140 north london allen road,</a></li>
+                <li class="ul-link"> <a href="#"> <img src="insta.svg"> <img src="facebook.svg"> <img src="twitter.svg"> </li></a>
+                
+              
+            </ul>
+            <!-- ul end -->
+        </div>
+    </div>
+    <!-- main footer end -->
+   
+</div>
+
+
+<div class="copyright"> Copyright2025 CodeWithOsama03</div>
+
+
+</body>
+<script src="script.js"></script>
+</html>
